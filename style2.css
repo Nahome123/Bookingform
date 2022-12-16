@@ -1,0 +1,106 @@
+
+ 
+  
+
+@media screen and (max-width: 575px)and (max-width:575px)  {
+   
+  nav li {
+      display: none;
+      
+  }
+      nav li{
+      display: block;
+      padding: 15px 0px;
+      width: 100%;
+      border-radius: 20px;
+     
+  }
+  
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+body {background-color:lightblue}
+h4{margin-left: 10px;text-align:center;font-family:Georgia, 'Times New Roman', Times, serif;color:#0a0a0b}
+p { font-family:Georgia, 'Times New Roman', Times, serif;color:#0a0a0b;
+  
+  padding: 10px 20px 20px 10px;
+margin-left: 10px;}
+h3{
+  margin-left: 10px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+ 
+}
+
+
+body{
+  background-image: url(https://media.cntraveler.com/photos/581250f2997d59497dccf8bc/16:9/w_2560%2Cc_limit/GettyImages-185298837.jpg);
+  background-size: cover;
+}
+p{
+ background: transparent;
+}
+  
+  .titlepage{
+    border-radius: 25px;
+    background: #d9b595;
+    text-shadow: 2px;
+    box-shadow: 5px 10px 18px rgb(207, 91, 91);
+    
+  }
+  img {
+    border-radius: 25px;
+    width: 400px;
+    
+  }
+  img:hover {
+    transform: scaleX(-1);
+  }
+  img[alt~="icon"] {
+    width: 150px;
+}
+img[alt~="icon1"] {
+  width: 50px;
+}
+
+.flex-container
+{
+
+  border-radius: 25px;
+  
+}
+.titlepage:hover {
+  background-color: rgb(242, 158, 102);
+}
+td:hover{
+  text-decoration: underline;
+ 
+  }

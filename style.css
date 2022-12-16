@@ -1,0 +1,149 @@
+
+@media screen and (max-width: 575px)and (max-width:575px)  {
+   
+nav li {
+    display: none;
+    
+}
+    nav li{
+    display: block;
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+    body{
+    background-image: url(https://media.cntraveler.com/photos/581250f2997d59497dccf8bc/16:9/w_2560%2Cc_limit/GettyImages-185298837.jpg);
+    background-size: cover;
+}
+#form{
+    background-color: #000;
+    height:500px;
+    width:700px;
+    margin:auto;
+    padding:20px;
+    opacity: 0.7;
+}
+#form h3{
+    border-bottom: 2px solid black;
+    width:210px;
+    padding: 5px;
+    
+}
+::placeholder{
+    color: black;
+}
+#name, #type,#depdate,#deptime{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:black;
+}
+
+#input3 #input-group{
+    margin-left: 50px;
+        
+}
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:rgb(10, 1, 1)
+}
+#input4 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:black;
+}
+#input5 h3{
+    border-bottom: 2px solid #030e19;
+    width:220px;
+    padding: 5px;
+}
+#input6,#fullname,#phonenum{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:black;
+}
+#input6 #email{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:black;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {background-color: #3e8e41}
+
+
+#input3{
+    background-color: #b2c3b9;
+    border-radius: 25px;
+}
+#primary{
+color: #000;
+}

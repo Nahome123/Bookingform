@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Travel</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="first.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<div class="toggle-btn">
+   <span></span>
+   <span></span>
+   <span></span>
+</div>
+<nav id="nav">
+   <ul>
+      <li><a href="first.html">Home</a></li>
+      <li><a href="main3.html">Packages</a></li>
+      <li><a href="ticket.html">Records</a></li>
+      <li><a href="main4.html">About</a></li>
+    </ul>
+</nav>
+
+</header>
+<body>
+ 
+
+
+
+ 
+    <div class="container"><br>
+      <h3 class="text-black">Booking Details</h3>
+        <form id="form1"class="form-group" method="post" action="/api/data">
+
+
+        <input type="text" name="name"name = "name" required id="name"placeholder="From"  > 
+        <input type="text" name="type" required id="type" placeholder="To"><br>
+        <input type="text" name="depdate" required id="depdate" placeholder="Departure Date">
+        <input type="text" name="deptime" required id="deptime" placeholder="Departure Time">
+      </select>
+      <select  id="input-group" style="background:white;">
+          <option value="">Preferred Seating</option>
+          <option value="">Economy Class</option>
+          <option value="">Business Class</option>
+          <option value="">First Class</option>
+      </select>
+      <div id="input3">
+         <span  id="input-group" class="primary">Select Your Fare  </span> 
+         <input type="radio" id="input-group" name="r">
+         <label class="text-white" for="input-group">One Way</label>
+         <input type="radio" id="input-group" name="r">
+         <label class="text-white" for="input-group">Round Trip</label>
+     </div>
+     <div id="input4">
+      <input type="text" id="input-group" placeholder="Return Date">
+      <input type="text" id="input-group" placeholder="Return time">
+  </div>
+  <div id="input6">
+   <input type="text" name="fullname"id="fullname" placeholder="Full Name">
+   <input type="number"name="phonenum" id="phonenum" placeholder="Phone Number">
+   <input type="email" name="email" id="email" placeholder="Email"><br>
+
+</div>
+     <button type="submit"  id="but1"class="btn btn-warning text-white">Submit information</button>   
+     <button type="reset" class="btn btn-primary">Clear Form</button>
+</form>
+<p id="submitted">Data Not Yet Submitted</p>
+<button id="mybutton">View record</button>
+      </body>
+    </div><br><br>
+    <footer>
+      <div id="contact" class="footer">
+         <div class="container">
+            <div class="row pdn-top-30">
+               <div class="col-xl-12col-lg-12 col-md-12 col-sm-12">
+                  <ul class="location_icon">
+                     <li> <a href="http://www.facebook.com"><img src="icon/facebook.png"></a></li>
+                     <li> <a href="http://www.twitter.com"><img src="icon/Twitter.png"></a></li>
+                     <li> <a href="http://wwwlinkedin.com"><img src="icon/linkedin.png"></a></li>
+                     <li> <a href="http://www.instagram.com"><img src="icon/instagram.png"></a></li>
+                  </ul>
+               </div>
+              
+                  <div class="Follow">
+                     <h3>CONTACT US</h3>
+                     <span>123 Second Street Fifth <br>Avenue,<br>
+                     Manhattan, New York<br>
+                     +987 654 3210</span>
+                
+               </div>
+              
+                  <div class="Follow">
+                  
+               </div>
+               
+                  <div class="Follow">
+                    
+                 
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Nahome Hailemichael</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+  
+   
+</body>
+</html>
